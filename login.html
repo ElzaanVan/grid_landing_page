@@ -14,12 +14,26 @@
         <form action="">
           <div class="form-input">
             <label for="name" class="login-name">Username</label>
-            <input type="text" name="name" id="name" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Username"
+              required
+            />
           </div>
           <div class="form-input">
             <label for="password" class="login-password">Password</label>
-            <input type="password" name="password" id="password" />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              minlength="12"
+              required
+            />
           </div>
+          <button>Sign in</button>
         </form>
       </div>
     </div>
