@@ -1,0 +1,19 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr 4.5fr 4.5fr 0.5fr;
+}
+.nav-header {
+  grid-column: 1 / -1;
+  display: flex;
+  background-color: aqua;
+  padding: 0.5em;
+}
+
+.nav-header > div {
+  margin-right: 0.5em;
+}
+
+.nav-header > div:nth-child(3) {
+  margin-left: auto;
+}
