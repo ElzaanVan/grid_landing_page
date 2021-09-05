@@ -1,0 +1,30 @@
+* {
+  font-family: monospace;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr;
+  height: 100vh;
+}
+
+.hero-container {
+  margin-top: 2em;
+  background-image: url(./img/undraw_Loading_re_5axr.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-form {
+  padding: 2em;
+  text-align: center;
+}
+
+label.login-name,
+label.login-password {
+  display: block;
+  padding: 1em;
+  font-size: 1.5em;
+}
